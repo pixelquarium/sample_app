@@ -1,0 +1,351 @@
+Started GET "/" for ::1 at 2016-12-30 15:53:49 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 129ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for ::1 at 2016-12-30 15:53:59 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 3345ms (Views: 3299.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for ::1 at 2016-12-30 16:11:21 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 331ms (Views: 278.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 10:23:15 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 105ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 10:23:41 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (1.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 10:30:46 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 122ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 10:30:50 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (1.0ms)
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 10:31:12 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 10:36:57 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for ::1 at 2017-01-04 10:37:07 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/help"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered collection of C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [4 times] (6.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (154.6ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (3860.2ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (3.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (2377.3ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (4953.6ms)
+Started GET "/static_pages/home" for ::1 at 2017-01-04 10:37:43 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (1.5ms)
+Completed 200 OK in 273ms (Views: 208.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/help" for ::1 at 2017-01-04 10:37:56 -0500
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb
+  Rendered static_pages/help.html.erb (1.0ms)
+Completed 200 OK in 223ms (Views: 162.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-01-04 10:38:13 -0500
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb
+  Rendered static_pages/about.html.erb (2.0ms)
+Completed 200 OK in 297ms (Views: 210.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-01-04 10:42:48 -0500
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb
+  Rendered static_pages/about.html.erb (1.0ms)
+Completed 200 OK in 226ms (Views: 178.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for ::1 at 2017-01-04 10:42:56 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (1.0ms)
+Completed 200 OK in 306ms (Views: 237.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for ::1 at 2017-01-04 10:45:57 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (2.0ms)
+Completed 500 Internal Server Error in 249ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Users/carterr/rails_projects/sample_app/app/views/static_pages/home.html.erb:1: syntax error, unexpected tSTRING_DEND, expecting ')'
+...fer.new;provide(:title, "Home"} %)
+...                               ^
+C:/Users/carterr/rails_projects/sample_app/app/views/static_pages/home.html.erb:3: syntax error, unexpected '<'
+<html>
+ ^):
+  
+app/views/static_pages/home.html.erb:1: syntax error, unexpected tSTRING_DEND, expecting ')'
+app/views/static_pages/home.html.erb:3: syntax error, unexpected '<'
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (28.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2716.5ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (2247.1ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (4477.0ms)
+Started GET "/static_pages/home" for ::1 at 2017-01-04 10:46:39 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (1.5ms)
+Completed 500 Internal Server Error in 248ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Users/carterr/rails_projects/sample_app/app/views/static_pages/home.html.erb:1: syntax error, unexpected tSTRING_DEND, expecting ')'
+...er.new; provide(:title, "Home"} 
+...                               ^):
+  
+app/views/static_pages/home.html.erb:1: syntax error, unexpected tSTRING_DEND, expecting ')'
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (21.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2514.1ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (2280.1ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (4552.3ms)
+Started GET "/static_pages/home" for ::1 at 2017-01-04 10:47:20 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (1.0ms)
+Completed 200 OK in 240ms (Views: 181.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for ::1 at 2017-01-04 11:51:00 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1426ms (Views: 1330.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for ::1 at 2017-01-04 11:51:31 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 289ms (Views: 234.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2017-01-04 11:51:42 -0500
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 333ms (Views: 272.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/help" for ::1 at 2017-01-04 11:51:51 -0500
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 289ms (Views: 242.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 12:26:21 -0500
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.5ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-05 16:18:31 -0500
+Started GET "/" for ::1 at 2017-01-05 16:18:31 -0500
+Processing by ApplicationController#hello as HTML
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendering html template
+  Rendered html template (0.0ms)
+  Rendered html template (0.5ms)
+Completed 200 OK in 231ms (Views: 154.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 210ms (Views: 145.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2017-01-05 16:18:39 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `call'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered collection of C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [4 times] (57.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (154.4ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (4828.5ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.0ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (3136.5ms)
+  Rendering C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (6078.8ms)
+Started GET "/static_pages/home" for ::1 at 2017-01-05 16:19:08 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1769ms (Views: 1699.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-05 20:28:41 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 2003ms (Views: 1881.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-05 20:29:27 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 348ms (Views: 279.2ms | ActiveRecord: 0.0ms)
+
+
